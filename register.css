@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  /* background: #ecf0f1; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://www.letemsvetemapplem.eu/wp-content/uploads/2018/04/civ6.jpg");
+  background: url(img/2.png);
+  display: flex;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  user-select: none;
+  font-size: 14px;
+}
+.box {
+  height: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #091c30;
+  border-radius: 5px;
+  padding: 30px 100px 30px 100px;
+  background: #2c3e50;
+  box-shadow: 0px 0px 60px 15px black;
+}
+.box > h1 {
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+}
+
+input:not([TYPE="checkbox"]) {
+  width: 100%;
+  margin: 50px 0 0 0;
+  background: none;
+  border: none;
+  padding-bottom: 5px;
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+.checkboxContainer {
+  margin-top: 20px;
+}
+input {
+  border-bottom: 2px solid #2ecc71 !important;
+  transition: 0.2s ease-out;
+}
+input:not([type="checkbox"]):focus {
+  outline: none;
+  border-bottom-color: white !important;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+  border-color: white !important;
+}
+
+.submitInput {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  border: 2px solid #2ecc71 !important;
+  border-radius: 3px;
+  padding: 10px !important;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.submit:hover {
+  background: #2ecc71;
+}
+a:hover {
+  color: #2ecc71;
+}
+a {
+  color: white;
+}
+.g-recaptcha {
+  margin-top: 20px;
+}
+
+form {
+  height: 90%;
+  margin-top: -50px;
+}
+
+.error {
+  position: absolute;
+  display: block;
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: rgb(255, 70, 70);
+}
+.checkboxError {
+  margin-top: 2px;
+}
+
+.outerLinkBox {
+  width: 100%;
+  text-align: right;
+}
+.outerLink {
+  text-decoration: none;
+  color: #2ecc71;
+}
+.outerLink:hover,
+:focus {
+  outline: none;
+  color: white;
+}
